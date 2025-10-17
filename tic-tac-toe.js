@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         isXTurn = !isXTurn; // Switch turn
     };
 
-    // Step 3: Add interactivity with hover effect
+    //Add interactivity with hover effect
     squares.forEach((square, index) => {
         // Add click event listener to each square
         square.classList.add("square"); // Ensure the square has the correct class
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Step 4: Reset the game when the "New Game" button is clicked
+    //Reset the game when the "New Game" button is clicked
     newGameButton.addEventListener("click", () => {
         // Reset the game state
         boardState.fill(null); // Clear the board state
